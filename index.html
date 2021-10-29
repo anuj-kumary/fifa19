@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
 </head>
-<body>
-    <main>
-        
-        <h1>FIFA <span>19</span></h1>
-        <div class="container">
-        <input type="text" id="player-name" placeholder="Search Player">
-        <button id="search-btn">Search</button>
-        </div>
-      
-    </main>
 
+<body>
+    <h1 id="heading">FIFA19</h1>
+    <div class="container">
+    <input type="text" id="search-player">
+    <button id="search">search</button>
+   
+    <div id="output">
+        <button class="value-btn">Value <span id="value"></span></button>
+        <button id="club-name"></button>
+            <p class="age">Age <span id="age"></span> </li>
+            <p class="height">Height <span id="height"></span></p>
+            <p class="weight">Weight <span id="weight"></spna>
+            </p>
+            <p class="preferred-foot">Preferred Foot <span id="preferred-foot"></span></p>
+            <p class="position">Position <span id="position"></span></p>
+            <p class="work-rate">Work Rate <span id="work-rate"></span></p>
+            <p class="jersey-number">Jersey Number <span id="jersey-number"></span></p>
+    </div>
+</div>
+    
     <script src="script.js"></script>
 </body>
+
 </html>
