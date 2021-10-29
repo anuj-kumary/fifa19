@@ -5,15 +5,18 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("img/baclground.jpeg");
-    background-position: center;
-}
-main{
-  margin: 5rem 3rem;
-  float:right ;
+    background-image: url(img/baclground.jpeg)
 }
 h1{
     text-align: center;
+    margin-top: 3rem;
+}
+p{
+    font-weight: 100;
+    line-height: 30px;
+}
+span{
+    font-weight: 600;
 }
 input{
     margin: 2rem 0;
@@ -23,12 +26,39 @@ input{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-width: 0;  
 }
-   button{
+button{
     padding: .5rem 1rem;
     outline: none;
     border-width: 0;
     height: 2.3rem;  
     background-color: #f24d67;
     color: #fff;
+    cursor: pointer;
+   }
+.graph{
+    width: 50%;
+    float: left;
+    margin: 6rem auto;
 }
+.container{
+    width: 50%;
+    display: inline-block;
+    margin: 6rem auto;
+}
+#output{
+    display: none;
+}
+.value-btn,#club-name{
+    background-color: #047857;
+    color:#fff ;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: .8px;
+    cursor: pointer;
+}
+#home p{
+   margin:2rem;
+   font-weight: 700;
+}
+
 
